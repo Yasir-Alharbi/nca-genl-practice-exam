@@ -6,13 +6,15 @@ The practice questions are credited to CertPro Deep Dive, with thanks for the gr
 
 ## Start Practicing
 
-When GitHub Pages is enabled, open the website link for this repository and start practicing directly in your browser.
+Open the live practice exam here:
+
+**Start Practice Exam:** https://yasir-alharbi.github.io/nca-genl-practice-exam/
 
 The main practice exam page is:
 
 - **NCA-GENL Interactive Practice Exam**: `index.html`
 
-`index.html` is the standard GitHub Pages home page file. Visitors do not need to open or understand the code; GitHub Pages uses this file automatically as the practice exam website.
+`index.html` is the standard GitHub Pages home page file. Visitors do not need to open or understand the code; the live link above opens the practice exam directly.
 
 ## Study Cheat Sheets
 
@@ -23,7 +25,7 @@ This repository also includes my own study cheat sheets, prepared while reviewin
 
 ## How to Use
 
-Open the GitHub Pages link for this repository and practice directly in the browser.
+Open the live practice exam link and practice directly in the browser.
 
 ## Contents
 
