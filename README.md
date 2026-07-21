@@ -16,11 +16,11 @@ The main practice exam page is:
 
 `index.html` is the standard GitHub Pages home page file. Visitors do not need to open or understand the code; the live link above opens the practice exam directly.
 
-## Study Cheat Sheets
+## Cheat Sheets
 
 My personal study cheat sheets are presented on a separate page so they do not get confused with the CertPro Deep Dive question source:
 
-- **Study Resources Page:** https://yasir-alharbi.github.io/nca-genl-practice-exam/study-resources.html
+- **Cheat Sheets Page:** https://yasir-alharbi.github.io/nca-genl-practice-exam/study-resources.html
 - **Dark theme cheat sheet:** `resources/nca-genl-master-cheat-sheet-dark.pdf`
 - **Light theme cheat sheet:** `resources/nca-genl-master-cheat-sheet-light.pdf`
 

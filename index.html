@@ -233,15 +233,54 @@
     }
     @media (max-width: 860px) {
       .shell { grid-template-columns: 1fr; }
-      aside { position: static; max-height: none; }
-      .jump-grid { max-height: 150px; grid-template-columns: repeat(10, 1fr); }
+      aside {
+        position: static;
+        max-height: none;
+        gap: 12px;
+        padding: 18px 16px 12px;
+      }
+      aside .stats,
+      aside .progress,
+      aside .jump-grid {
+        display: none;
+      }
+      #resetBtn {
+        align-self: flex-start;
+        width: auto;
+        padding: 8px 12px;
+        font-size: 13px;
+      }
       .topbar { position: static; align-items: flex-start; flex-direction: column; }
       .exam { margin: 16px auto; padding: 12px; }
     }
     @media (max-width: 520px) {
-      .jump-grid { grid-template-columns: repeat(5, 1fr); }
-      .stats { grid-template-columns: 1fr; }
+      body { overflow-x: hidden; }
+      h1 { font-size: 20px; }
+      .subtle { font-size: 14px; }
+      .side-link { padding: 12px; }
+      .topbar { padding: 14px 16px; }
+      .toolbar button.command { min-width: 110px; }
+      .exam {
+        width: calc(100% - 20px);
+        padding: 10px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .image-wrap {
+        width: 720px;
+        max-width: none;
+        overflow: hidden;
+      }
+      .image-wrap img {
+        width: 100%;
+        max-width: none;
+      }
       .meta, .actions { flex-direction: column; }
+      .actions button.command {
+        width: 100%;
+        min-height: 52px;
+        font-size: 16px;
+      }
     }
   </style>
 </head>
@@ -253,7 +292,7 @@
         <div class="subtle">Practice questions are credited to CertPro Deep Dive. Thank you for the great playlist and explanation effort.</div>
       </div>
       <div class="sidebar-links" aria-label="Helpful links">
-        <a class="side-link" href="study-resources.html">Study Resources by Yasir</a>
+        <a class="side-link" href="study-resources.html">Cheat Sheets</a>
         <a class="side-link" href="https://youtube.com/playlist?list=PLB574eEmT4odPerWxbnPTCMy5dBqLfurF&amp;si=t1Ixv9MiSJIuHA6U">CertPro Deep Dive Playlist</a>
       </div>
       <div class="stats">
