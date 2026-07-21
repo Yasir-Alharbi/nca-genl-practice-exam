@@ -102,7 +102,6 @@
       top: 0;
       z-index: 3;
     }
-    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; }
     button.command {
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -182,12 +181,14 @@
     .feedback.correct { color: var(--accent); border-color: #2f8c58; background: #0b2a1b; }
     .feedback.wrong { color: var(--bad); border-color: #8f3a35; background: #301311; }
     .actions {
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 10px;
       margin: 18px auto 0;
       max-width: 980px;
-      flex-wrap: wrap;
+    }
+    .actions button.command {
+      min-height: 46px;
     }
     .source {
       margin: 14px auto 0;
@@ -259,7 +260,6 @@
       .subtle { font-size: 14px; }
       .side-link { padding: 12px; }
       .topbar { padding: 14px 16px; }
-      .toolbar button.command { min-width: 110px; }
       .exam {
         width: calc(100% - 20px);
         padding: 10px;
@@ -275,11 +275,17 @@
         width: 100%;
         max-width: none;
       }
-      .meta, .actions { flex-direction: column; }
+      .meta { flex-direction: column; }
+      .actions {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
       .actions button.command {
         width: 100%;
         min-height: 52px;
         font-size: 16px;
+      }
+      #clearBtn {
+        grid-column: 1 / -1;
       }
     }
   </style>
@@ -309,10 +315,6 @@
           <strong id="title">Question 1</strong>
           <div class="subtle" id="modeText"></div>
         </div>
-        <div class="toolbar">
-          <button class="command" id="prevBtn" type="button">Previous</button>
-          <button class="command" id="nextBtn" type="button">Next</button>
-        </div>
       </div>
       <section class="exam">
         <div class="meta">
@@ -322,7 +324,9 @@
         <div class="image-wrap" id="imageWrap"></div>
         <div class="feedback" id="feedback"></div>
         <div class="actions">
+          <button class="command" id="prevBtn" type="button">Previous</button>
           <button class="command primary" id="submitBtn" type="button">Submit Answer</button>
+          <button class="command" id="nextBtn" type="button">Next</button>
           <button class="command" id="clearBtn" type="button">Clear Selection</button>
         </div>
         <div class="credit">
