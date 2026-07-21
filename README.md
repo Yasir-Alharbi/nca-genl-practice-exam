@@ -1,11 +1,13 @@
-# NCA-GENL Screenshot Practice Exam
+# NVIDIA-Certified Associate Generative AI LLMs Interactive Practice Exam
 
-Interactive practice exam for NVIDIA-Certified Associate Generative AI LLMs.
+Interactive practice exam for the NVIDIA-Certified Associate Generative AI LLMs certification.
 
-This repository also includes two versions of the same cheat sheet PDF:
+The practice questions are credited to CertPro Deep Dive, with thanks for the great playlist and explanation effort.
 
-- Dark theme version for low-light reading preferences.
-- Light theme version for normal paper-style reading preferences.
+This repository also includes my own study cheat sheets, prepared while reviewing for the exam:
+
+- Dark theme version for low-light reading.
+- Light theme version for normal paper-style reading.
 
 ## How to Use
 
@@ -13,10 +15,10 @@ Open the GitHub Pages link for this repository and practice directly in the brow
 
 ## Contents
 
-- `index.html` - interactive exam page
-- `images/` - question screenshots used by the exam
-- `resources/nca-genl-master-cheat-sheet-dark.pdf` - dark theme cheat sheet
-- `resources/nca-genl-master-cheat-sheet-light.pdf` - light theme cheat sheet
+- `index.html` - interactive practice exam page
+- `images/` - question images used by the exam
+- `resources/nca-genl-master-cheat-sheet-dark.pdf` - my dark theme study cheat sheet
+- `resources/nca-genl-master-cheat-sheet-light.pdf` - my light theme study cheat sheet
 
 ## Notes
 
@@ -26,9 +28,9 @@ Open the GitHub Pages link for this repository and practice directly in the brow
 
 ## Credit
 
-The 123 screenshot questions come from the CertPro Deep Dive YouTube channel. CertPro Deep Dive made a helpful playlist with explanations for these questions, and I am thankful for the work and effort.
+The 123 practice questions are credited to the CertPro Deep Dive YouTube channel. CertPro Deep Dive made a helpful playlist with explanations for these questions, and I am thankful for the work and effort.
 
-This project only converts the practice questions into an interactive exam format.
+This project only converts the practice questions into an interactive exam format and adds my personal study cheat sheets.
 
 - Playlist: https://youtube.com/playlist?list=PLB574eEmT4odPerWxbnPTCMy5dBqLfurF&si=t1Ixv9MiSJIuHA6U
 - Channel: https://www.youtube.com/@CertProDeepDive
