@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NCA-GENL Study Resources by Yasir Alharbi</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #060a12;
+        --panel: #111827;
+        --panel-2: #0c1322;
+        --text: #f8fafc;
+        --muted: #bfd4f6;
+        --accent: #57d98d;
+        --blue: #60a5fa;
+        --border: #34445f;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      main {
+        width: min(1040px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 42px 0;
+      }
+      header {
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 22px;
+        margin-bottom: 24px;
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(30px, 5vw, 56px);
+        line-height: 1.05;
+      }
+      .lead {
+        max-width: 760px;
+        margin: 0;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      .actions,
+      .cards {
+        display: grid;
+        gap: 14px;
+      }
+      .actions {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        margin: 24px 0;
+      }
+      .cards {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        margin: 24px 0;
+      }
+      .button,
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 12px 14px;
+        color: var(--text);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .button.primary {
+        background: var(--blue);
+        border-color: var(--blue);
+        color: #03111f;
+      }
+      .card {
+        padding: 20px;
+      }
+      .card h2 {
+        margin: 0 0 10px;
+        font-size: 22px;
+      }
+      .card p,
+      .note p {
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      .card a {
+        display: inline-flex;
+        margin-top: 8px;
+        color: var(--accent);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .note {
+        margin-top: 24px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--panel-2);
+        padding: 18px;
+      }
+      .note h2 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+      .note a {
+        color: var(--accent);
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>NCA-GENL Study Resources</h1>
+        <p class="lead">Personal study cheat sheets prepared by Yasir Alharbi while reviewing for the NVIDIA-Certified Associate Generative AI LLMs certification.</p>
+      </header>
+
+      <div class="actions">
+        <a class="button primary" href="index.html">Start Practice Exam</a>
+        <a class="button" href="https://github.com/Yasir-Alharbi/nca-genl-practice-exam">View GitHub Repository</a>
+      </div>
+
+      <section class="cards" aria-label="Study cheat sheet downloads">
+        <article class="card">
+          <h2>Dark Theme Cheat Sheet</h2>
+          <p>Same study content, styled for low-light reading and screen-based review.</p>
+          <a href="resources/nca-genl-master-cheat-sheet-dark.pdf">Open dark theme PDF</a>
+        </article>
+        <article class="card">
+          <h2>Light Theme Cheat Sheet</h2>
+          <p>Same study content, styled like a normal paper document for printing or daylight reading.</p>
+          <a href="resources/nca-genl-master-cheat-sheet-light.pdf">Open light theme PDF</a>
+        </article>
+      </section>
+
+      <section class="note">
+        <h2>Question Credit</h2>
+        <p>The 123 practice questions used in the interactive exam are credited to CertPro Deep Dive. Thank you to CertPro Deep Dive for the playlist and explanation effort.</p>
+        <p><a href="https://youtube.com/playlist?list=PLB574eEmT4odPerWxbnPTCMy5dBqLfurF&amp;si=t1Ixv9MiSJIuHA6U">CertPro Deep Dive playlist</a> | <a href="https://www.youtube.com/@CertProDeepDive">CertPro Deep Dive channel</a></p>
+      </section>
+    </main>
+  </body>
+</html>

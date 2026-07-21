@@ -18,10 +18,11 @@ The main practice exam page is:
 
 ## Study Cheat Sheets
 
-This repository also includes my own study cheat sheets, prepared while reviewing for the exam:
+My personal study cheat sheets are presented on a separate page so they do not get confused with the CertPro Deep Dive question source:
 
-- **Dark theme cheat sheet**: `resources/nca-genl-master-cheat-sheet-dark.pdf`
-- **Light theme cheat sheet**: `resources/nca-genl-master-cheat-sheet-light.pdf`
+- **Study Resources Page:** https://yasir-alharbi.github.io/nca-genl-practice-exam/study-resources.html
+- **Dark theme cheat sheet:** `resources/nca-genl-master-cheat-sheet-dark.pdf`
+- **Light theme cheat sheet:** `resources/nca-genl-master-cheat-sheet-light.pdf`
 
 ## How to Use
 
@@ -30,6 +31,7 @@ Open the live practice exam link and practice directly in the browser.
 ## Contents
 
 - `index.html` - the main NCA-GENL interactive practice exam website page
+- `study-resources.html` - Yasir Alharbi's personal study resources page
 - `images/` - question images used by the exam
 - `resources/nca-genl-master-cheat-sheet-dark.pdf` - my dark theme study cheat sheet
 - `resources/nca-genl-master-cheat-sheet-light.pdf` - my light theme study cheat sheet
