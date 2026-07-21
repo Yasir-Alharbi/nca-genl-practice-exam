@@ -4,10 +4,22 @@ Interactive practice exam for the NVIDIA-Certified Associate Generative AI LLMs 
 
 The practice questions are credited to CertPro Deep Dive, with thanks for the great playlist and explanation effort.
 
+## Start Practicing
+
+When GitHub Pages is enabled, open the website link for this repository and start practicing directly in your browser.
+
+The main practice exam page is:
+
+- **NCA-GENL Interactive Practice Exam**: `index.html`
+
+`index.html` is the standard GitHub Pages home page file. Visitors do not need to open or understand the code; GitHub Pages uses this file automatically as the practice exam website.
+
+## Study Cheat Sheets
+
 This repository also includes my own study cheat sheets, prepared while reviewing for the exam:
 
-- Dark theme version for low-light reading.
-- Light theme version for normal paper-style reading.
+- **Dark theme cheat sheet**: `resources/nca-genl-master-cheat-sheet-dark.pdf`
+- **Light theme cheat sheet**: `resources/nca-genl-master-cheat-sheet-light.pdf`
 
 ## How to Use
 
@@ -15,7 +27,7 @@ Open the GitHub Pages link for this repository and practice directly in the brow
 
 ## Contents
 
-- `index.html` - interactive practice exam page
+- `index.html` - the main NCA-GENL interactive practice exam website page
 - `images/` - question images used by the exam
 - `resources/nca-genl-master-cheat-sheet-dark.pdf` - my dark theme study cheat sheet
 - `resources/nca-genl-master-cheat-sheet-light.pdf` - my light theme study cheat sheet
